@@ -10,7 +10,7 @@ const {session} = getSession()
   return (
     <div className="App">
       <SessionProvider session={session}>
-        <Login/>
+        <Header/>
       </SessionProvider>
     </div>
   );
